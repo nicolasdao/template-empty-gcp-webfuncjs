@@ -6,4 +6,8 @@
  * LICENSE file in the root directory of this source tree.
 */
 
-console.log(`I'm an empty template and in environment ${process.env}`)
+const { app, appConfig: { env } } = require('webfunc')
+
+app.get('/users/:username', (req, res) => res.status(200).send(`Hello ${req.params.username} from env ${env}`))
+
+eval(app.listen('app', 4000))

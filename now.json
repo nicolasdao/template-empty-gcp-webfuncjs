@@ -1,0 +1,19 @@
+{
+	"environment": {
+		"active": "default",
+		"default": {
+			"hostingType": "localhost",
+			"env": "dev"
+		},
+		"test": {
+			"hostingType": "now",
+			"env": "test",
+			"alias": "yourapp-test"
+		},
+		"prod": {
+			"hostingType": "now",
+			"env": "prod",
+			"alias": "yourapp-prod"
+		}
+	}
+}

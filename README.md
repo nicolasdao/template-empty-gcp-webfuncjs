@@ -1,5 +1,5 @@
-# Empty Project &middot;  [![NPM](https://img.shields.io/npm/v/webfunc.svg?style=flat)](https://www.npmjs.com/package/webfunc) [![Tests](https://travis-ci.org/nicolasdao/webfunc.svg?branch=master)](https://travis-ci.org/nicolasdao/webfunc) [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause) [![Neap](https://neap.co/img/made_by_neap.svg)](#this-is-what-we-re-up-to)
-__*Empty project*__ which does heaps of cool stuff.
+# Empty Zeit Now Project &middot;  [![NPM](https://img.shields.io/npm/v/webfunc.svg?style=flat)](https://www.npmjs.com/package/webfunc) [![Tests](https://travis-ci.org/nicolasdao/webfunc.svg?branch=master)](https://travis-ci.org/nicolasdao/webfunc) [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause) [![Neap](https://neap.co/img/made_by_neap.svg)](#this-is-what-we-re-up-to)
+__*Empty Zeit Now Project*__ is built on top of the [emptyjs project](https://github.com/nicolasdao/template-emptyjs#license). It adds to it some extra tools and config to easily deploy to Zeit Now.
 
 # Table of Contents
 
@@ -8,35 +8,55 @@ __*Empty project*__ which does heaps of cool stuff.
 >   - [Basic](#basic)
 >   - [Config](#config)
 > * [FAQ](#faq)
+> * [Annexes](#annexes)
+>   - [now-CLI Commands](#now-cli-commands)
 > * [About Neap](#this-is-what-we-re-up-to)
 > * [License](#license)
 
 
 # Install
 ```
-git clone https://github.com/nicolasdao/template-emptyjs.git new-project-name
+git clone https://github.com/nicolasdao/template-emptynowjs.git new-project-name
 cd new-project-name
 npm install
 npm test
 npm start
 ```
 
+Browse to [http://localhost:4000/users/nic](http://localhost:4000/users/nic) to see the result. 
+
 # How To Use It
 ## Basic
 
-  | #  |Task             | Command                                                       | Note                                               | 
-  |:-:| :--------------- |:------------------------------------------------------------- |:---------------------------------------------------|
-  | 1 | Start            | `npm start`                                                   | Start node with hot reload thanks to `node-dev`.   |
-  | 2 | Lint             | `npm run eslint`                                              | Lint and automatically fixes errors when possible. |
-  | 3 | Increase version | `npm run release`<br/>`npm run release -- --release-as 1.1.0` | The 1st command increments the version, while the 2nd sets the version to a specific number. |
-  | 4 | Test             | `npm test`                                                    | Test all files in the `test` folder.               |
+| # |Task             | Command                                                       | Note                                               | 
+|:-:| :--------------- |:------------------------------------------------------------- |:---------------------------------------------------|
+| 1 | Start            | `npm start`                                                   | Start node with hot reload thanks to `node-dev`.   |
+| 2 | Lint             | `npm run eslint`                                              | Lint and automatically fixes errors when possible. |
+| 3 | Increase version | `npm run release`<br/>`npm run release -- --release-as 1.1.0` | The 1st command increments the version, while the 2nd sets the version to a specific number. |
+| 4 | Test             | `npm test`                                                    | Test all files in the `test` folder.               |
 
 ## Config
 
 __*Update The git Repo:*__ `git remote set-url origin https://github.com/nicolasdao/project.git`
 
+## Deploy
+> Prerequisites: Make sure you have `now-CLI` installed!
+
+__*Test you have now-cli installed*__: `now -v`
+__*Test you're on the right account'*__: `now switch`
+__*Deploy*__: `npm run deploy:staging`
+
+
 # FAQ
 Blablabla
+
+# Annexes
+## now-CLI Commands
+
+| # | Task                 | Command                       |
+|:-:| :------------------- |:----------------------------- |
+| 1 | List all deployments | `now ls`                      |
+| 2 | Delete a deployment  | `now rm <deployment-name>`    |
 
 # This Is What We re Up To
 We are Neap, an Australian Technology consultancy powering the startup ecosystem in Sydney. We simply love building Tech and also meeting new people, so don't hesitate to connect with us at [https://neap.co](https://neap.co).
