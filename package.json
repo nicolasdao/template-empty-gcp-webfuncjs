@@ -1,16 +1,16 @@
 {
-  "name": "emptynowjs",
+  "name": "template-emptywebfuncjs",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nicolasdao/template-emptynowjs.git"
+    "url": "https://github.com/nicolasdao/template-emptywebfuncjs.git"
   },
   "bugs": {
-    "url": "https://github.com/nicolasdao/template-emptynowjs/issues"
+    "url": "https://github.com/nicolasdao/template-emptywebfuncjs/issues"
   },
-  "homepage": "https://github.com/nicolasdao/template-emptynowjs#readme",
+  "homepage": "https://github.com/nicolasdao/template-emptywebfuncjs#readme",
   "scripts": {
     "deploy:test": "nowflow test",
     "deploy:prod": "nowflow prod",
