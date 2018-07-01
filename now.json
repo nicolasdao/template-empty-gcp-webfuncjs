@@ -6,14 +6,20 @@
 			"env": "dev"
 		},
 		"test": {
-			"hostingType": "now",
+			"hostingType": "gcp",
 			"env": "test",
-			"alias": "yourapp-test"
+			"gcp": {
+				"functionName": "yourapp-test",
+				"memory": 128
+			}
 		},
 		"prod": {
 			"hostingType": "now",
 			"env": "prod",
-			"alias": "yourapp-prod"
+			"gcp": {
+				"functionName": "yourapp-prod",
+				"memory": 256
+			}
 		}
 	}
 }

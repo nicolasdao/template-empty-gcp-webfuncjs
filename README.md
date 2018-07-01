@@ -1,5 +1,5 @@
-# Empty Webfunc Project &middot;  [![NPM](https://img.shields.io/npm/v/webfunc.svg?style=flat)](https://www.npmjs.com/package/webfunc) [![Tests](https://travis-ci.org/nicolasdao/webfunc.svg?branch=master)](https://travis-ci.org/nicolasdao/webfunc) [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause) [![Neap](https://neap.co/img/made_by_neap.svg)](#this-is-what-we-re-up-to)
-__*Empty Webfunc Project*__ is built on top of the [emptyjs project](https://github.com/nicolasdao/template-emptyjs#license). It adds to it some extra tools and config to easily deploy to Zeit Now.
+# Empty Webfunc Project For GCP &middot;  [![NPM](https://img.shields.io/npm/v/webfunc.svg?style=flat)](https://www.npmjs.com/package/webfunc) [![Tests](https://travis-ci.org/nicolasdao/webfunc.svg?branch=master)](https://travis-ci.org/nicolasdao/webfunc) [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause) [![Neap](https://neap.co/img/made_by_neap.svg)](#this-is-what-we-re-up-to)
+__*Empty Webfunc Project*__ is built on top of the [emptyjs project](https://github.com/nicolasdao/template-emptyjs#license). It adds to it some extra tools and config to easily deploy to Google Cloud Functions using [webfunc](https://github.com/nicolasdao/webfunc#google-pubsub-topic--storage-trigger-based-functions).
 
 # Table of Contents
 
@@ -16,7 +16,7 @@ __*Empty Webfunc Project*__ is built on top of the [emptyjs project](https://git
 
 # Install
 ```
-git clone https://github.com/nicolasdao/template-emptywebfuncjs.git new-project-name
+git clone https://github.com/nicolasdao/template-empty-gcp-webfuncjs.git new-project-name
 cd new-project-name
 npm install
 npm test
