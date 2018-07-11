@@ -14,7 +14,7 @@
   "scripts": {
     "deploy:test": "nowflow test",
     "deploy:prod": "nowflow prod",
-    "eslint": "eslint index.js src/ test/ --fix",
+    "lint": "eslint index.js src/ test/ --fix",
     "release": "standard-version",
     "start": "node-dev index.js",
     "test": "mocha"
